@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@charset "utf-8";
+
+/* CSS Document */
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/*setup*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+
+}
+
+
+/***************************END OF FE***************************/
+
+/*HEADER-DOWNLOAD*/
+
+.content-header-download {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#232526+0,232526+0,232526+50,414345+100 */
+  background: -webkit-linear-gradient(#f0f0f0 0%, #f9f9f9 47%, #f0f0f0 100%);
+  background: -o-linear-gradient(#f0f0f0 0%, #f9f9f9 47%, #f0f0f0 100%);
+  background: linear-gradient(#f0f0f0 0%, #f9f9f9 47%, #f0f0f0 100%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #26a546;
+}
+
+.content-header-download,
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  color: #26a546;
+}
+
+.content-header-download,
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  color: #26a546;
+}
+
+
+/*BODY-DOWNLOAD*/
+
+.content-body-download {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-body-download h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  color: #2e2e2e;
+}
+
+.buttons {
+  width: 247px;
+  height: 82px;
+  display: block;
+  background: transparent url(../img/yellow-download-now.png) center top no-repeat;
+  margin-bottom: 30px;
+}
+
+.buttons:hover {
+  background-image: url(../img/orange-download-now.png);
+}
+
+.panel-default {
+  background-color: #EEEEEE;
+  border-color: transparent;
+  display: block;
+  text-align: left;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.panel-default h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.panel-default h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.panel-default u {
+  font-size: 24px;
+  font-weight: 400;
+  color: #0000EE;
+}
+
+.panel-body {
+  padding: 10px 15px 25px 15px;
+}
